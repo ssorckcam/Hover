@@ -26,6 +26,7 @@ struct SwiftUIHoverButton: View {
         Circle()
             .frame(width: 70, height: 70)
             .foregroundColor(Color.green)
+            .allowsHitTesting(false)
     }
 }
 
