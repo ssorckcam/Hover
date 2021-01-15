@@ -84,6 +84,8 @@ private extension HoverButton {
         
         add(views: hostingController.view)
         add(views: hightlightView)
+        
+        defineConstraints(with: imageSizeRatio)
     }
     
     func addSubviews() {
