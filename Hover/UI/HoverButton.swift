@@ -83,6 +83,7 @@ private extension HoverButton {
         let hostingController = UIHostingController(rootView: swiftUIButton)
         
         add(views: hostingController.view)
+        add(views: hightlightView)
     }
     
     func addSubviews() {
