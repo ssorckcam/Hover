@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 // MARK: HoverButton
 class HoverButton: UIControl {
@@ -75,9 +76,13 @@ class HoverButton: UIControl {
 private extension HoverButton {
     
     func configure(with color: HoverColor, image: UIImage?, imageSizeRatio: CGFloat) {
-        addSubviews()
-        defineConstraints(with: imageSizeRatio)
-        setupSubviews(with: color, image: image)
+        //addSubviews()
+        //defineConstraints(with: imageSizeRatio)
+        //setupSubviews(with: color, image: image)
+        let swiftUIButton = SwiftUIHoverButton()
+        let hostingController = UIHostingController(rootView: swiftUIButton)
+        
+        add(views: hostingController.view)
     }
     
     func addSubviews() {

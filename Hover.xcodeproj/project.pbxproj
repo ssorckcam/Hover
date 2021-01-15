@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01C9113C25B17D2D00DB036D /* SwiftUIHoverButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C9113B25B17D2D00DB036D /* SwiftUIHoverButton.swift */; };
 		200A2A5F22DB36010034E819 /* HoverColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200A2A5E22DB36010034E819 /* HoverColor.swift */; };
 		2020302522DA33CD001781B6 /* CALayer+Decorators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2020302422DA33CD001781B6 /* CALayer+Decorators.swift */; };
 		20427AB122D905E7007C5ED0 /* CGPoint+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20427AB022D905E7007C5ED0 /* CGPoint+Operators.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01C9113B25B17D2D00DB036D /* SwiftUIHoverButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIHoverButton.swift; sourceTree = "<group>"; };
 		200A2A5E22DB36010034E819 /* HoverColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoverColor.swift; sourceTree = "<group>"; };
 		2020302422DA33CD001781B6 /* CALayer+Decorators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Decorators.swift"; sourceTree = "<group>"; };
 		20427AB022D905E7007C5ED0 /* CGPoint+Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Operators.swift"; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				209DED7322DA82A300B869AC /* HoverView.swift */,
 				209DED7E22DA82D300B869AC /* HoverItemView.swift */,
 				2061689F22DE7F8D003A39C8 /* DimView.swift */,
+				01C9113B25B17D2D00DB036D /* SwiftUIHoverButton.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				209DED6422DA63D100B869AC /* UIView+Add.swift in Sources */,
 				206168A022DE7F8D003A39C8 /* DimView.swift in Sources */,
 				200A2A5F22DB36010034E819 /* HoverColor.swift in Sources */,
+				01C9113C25B17D2D00DB036D /* SwiftUIHoverButton.swift in Sources */,
 				209DED7822DA82A300B869AC /* Calculator.swift in Sources */,
 				207F0EAC22DBBC370009ED1E /* HoverConfiguration.swift in Sources */,
 				207F0EAE22DBD3770009ED1E /* Orientation.swift in Sources */,
@@ -374,12 +378,13 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 7GE4Q65N57;
+				DEVELOPMENT_TEAM = W7Q6XJ7J2P;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Hover/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -401,12 +406,13 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 7GE4Q65N57;
+				DEVELOPMENT_TEAM = W7Q6XJ7J2P;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Hover/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
