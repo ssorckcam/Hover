@@ -15,14 +15,17 @@ struct SwiftUIHoverButton: View {
     @State var highlighted = false
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            .foregroundColor(Color.primary)
-            .padding()
-            .background(Color.green)
-            .onTapGesture {
-                highlight(highlighted)
-                highlighted = !highlighted
-            }
+//        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+//            .foregroundColor(Color.primary)
+//            .padding()
+//            .background(Color.green)
+//            .onTapGesture {
+//                highlight(highlighted)
+//                highlighted = !highlighted
+//            }
+        Circle()
+            .frame(width: 70, height: 70)
+            .foregroundColor(Color.green)
     }
 }
 
