@@ -79,7 +79,7 @@ private extension HoverButton {
         //addSubviews()
         //defineConstraints(with: imageSizeRatio)
         //setupSubviews(with: color, image: image)
-        let swiftUIButton = SwiftUIHoverButton()
+        let swiftUIButton = SwiftUIHoverButton(highlight: { highlighed in self.isHighlighted = highlighed })
         let hostingController = UIHostingController(rootView: swiftUIButton)
         
         add(views: hostingController.view)
